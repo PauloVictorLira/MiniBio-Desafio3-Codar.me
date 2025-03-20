@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans+JP&family=Poppins:wght@300&display=swap');
+
+body {
+  background: rgb(2, 0, 36);
+  color: gainsboro;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nome,
+.about {
+  text-align: center;
+}
+.nome {
+  font-family: 'Merriweather', serif;
+}
+
+.nome,
+a {
+  color: rgba(0, 255, 255, 0.685);
+}
+
+.img-profile {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  border: solid rgba(0, 255, 255, 0.685);
+  display: block;
+  margin: auto;
+}
+
+.about {
+  font-family: 'Poppins', sans-serif;
+  max-width: 339px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+div.info {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+ul.info {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgba(47, 46, 66, 0.733);
+  border-radius: 10px;
+  padding: 16px 25px 16px 40px;
+}
+
+/* .img-profile img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
